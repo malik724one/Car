@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>CarCare</title>
+
+  <!-- Link the stylesheet -->
+  <!-- If styles.css is in the same folder use: href="styles.css" -->
+  <!-- If in a subfolder named css use: href="css/styles.css" -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="brand">CarCare Services</h1>
+
+    <!-- hamburger -->
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <!-- nav -->
+    <nav id="nav-menu" aria-label="Main navigation">
+      <ul class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- put this at the very end of the body -->
+<script src="script.js"></script>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Premium Car Care Services</h1>
+    <p>Professional washing, detailing, and maintenance for your vehicle.</p>
+    <a href="#services" class="btn">Explore Services</a>
+  </div>
+</section>
+
+
+</body>
+</html>
+
+
+
+<!-- About Us Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        We are a trusted car service company providing high-quality maintenance,
+        detailing, and repair solutions. Our goal is to keep your vehicle running
+        smoothly and looking brand new. With years of experience and skilled
+        professionals, we deliver exceptional service and customer satisfaction.
+      </p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="about-image">
+      <img src="Media/Image/About.jpg" alt="About our car service">
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+
+<section class="services" id="services">
+  <div class="services-container">
+    <h2>Our Services</h2>
+    <p class="services-intro">
+      We provide top-notch car care and maintenance services to keep your vehicle in excellent condition.
+    </p>
+
+    <div class="service-boxes">
+      <div class="service-box">
+        <img src="Media/Image/service1.jpg" alt="Car Wash">
+        <h3>Car Wash & Detailing</h3>
+        <p>Get your car shining like new with our professional wash and detailing service.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="Media/Image/services2.jpg" alt="Oil Change">
+        <h3>Oil Change</h3>
+        <p>Keep your engine healthy with quick and reliable oil change services.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="Media/Image/service3.jpg" alt="Repair">
+        <h3>Car Repair</h3>
+        <p>From minor fixes to major repairs, our experts handle it all efficiently.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+
+<section class="why-choose">
+  <div class="why-container">
+    <!-- Left Side: Image -->
+    <div class="why-image">
+      <img src="Media/Image/Why.jpg" alt="Why Choose Our Car Service">
+    </div>
+
+    <!-- Right Side: Text -->
+    <div class="why-text">
+      <h2>Why Choose Us</h2>
+      <p>
+        We believe in delivering quality and value. Our dedicated team of professionals ensures that your vehicle receives the best care and attention it deserves.
+      </p>
+      <ul class="why-list">
+        <li> Experienced and Certified Technicians</li>
+        <li> 24/7 Customer Support</li>
+        <li> Affordable Pricing Packages</li>
+        <li> Fast, Reliable, and Honest Service</li>
+        <li> Premium Quality Products Used</li>
+      </ul>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+
+<section class="pricing" id="pricing">
+  <div class="pricing-container">
+    <h2>Our Pricing Plans</h2>
+    <p class="pricing-intro">
+      Choose the perfect service package that fits your car’s needs and your budget.
+    </p>
+
+    <div class="price-cards">
+      <!-- Card 1 -->
+      <div class="price-card">
+        <h3>Basic Wash</h3>
+        <h4>$25</h4>
+        <ul>
+          <li>✔ Exterior Wash</li>
+          <li>✔ Tire Cleaning</li>
+          <li>✔ Interior Vacuum</li>
+          <li>✖ Wax Polish</li>
+        </ul>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="price-card featured">
+        <h3>Standard Care</h3>
+        <h4>$50</h4>
+        <ul>
+          <li>✔ Full Car Wash</li>
+          <li>✔ Wax Polish</li>
+          <li>✔ Tire Shine</li>
+          <li>✔ Interior Detailing</li>
+        </ul>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="price-card">
+        <h3>Premium Detail</h3>
+        <h4>$75</h4>
+        <ul>
+          <li>✔ Deep Interior Cleaning</li>
+          <li>✔ Engine Bay Wash</li>
+          <li>✔ Paint Protection</li>
+          <li>✔ Tire Coating</li>
+        </ul>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="price-card">
+        <h3>Deluxe Package</h3>
+        <h4>$100</h4>
+        <ul>
+          <li>✔ Everything in Premium</li>
+          <li>✔ Ceramic Coating</li>
+          <li>✔ Headlight Restoration</li>
+          <li>✔ Pickup & Delivery</li>
+        </ul>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-container">
+    <h2>What Our Clients Say</h2>
+    <p class="testimonial-intro">
+      Here’s what our satisfied customers have to say about our car services.
+    </p>
+
+    <div class="testimonial-boxes">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <img src="Media/Image/client1.jpg" alt="Client 1">
+        <h3>Ali Khan</h3>
+        <p>“Excellent service! My car looks brand new every time I visit. Highly recommend their detailing package.”</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <img src="Media/Image/client2.png" alt="Client 2">
+        <h3>Sara Ahmed</h3>
+        <p>“Very professional team and quick service. The oil change and cleaning were done perfectly.”</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <img src="Media/Image/client3.png" alt="Client 3">
+        <h3>Usman Malik</h3>
+        <p>“Best car wash in town! They really pay attention to detail and care for your vehicle.”</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="testimonial-card">
+        <img src="Media/Image/client4.jpeg" alt="Client 4">
+        <h3>Fatima Noor</h3>
+        <p>“Affordable prices and great quality work. I’m impressed with how clean and shiny my car looks!”</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <!-- Left side: Info -->
+    <div class="contact-info">
+      <h2>Get In Touch</h2>
+      <p>We’d love to hear from you! Contact us for bookings, queries, or more information.</p>
+
+      <div class="contact-details">
+        <p><strong>📍 Address:</strong> 123 Auto Street, Lahore, Pakistan</p>
+        <p><strong>📞 Phone:</strong> +92 300 1234567</p>
+        <p><strong>✉️ Email:</strong> info@carcare.com</p>
+      </div>
+    </div>
+
+    <!-- Right side: Form -->
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Left side: Brand info -->
+    <div class="footer-about">
+      <h3>CarCare Services</h3>
+      <p>
+        Providing trusted and high-quality car services for years.  
+        We keep your vehicle in top condition with expert care.
+      </p>
+    </div>
+
+    <!-- Middle: Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Right side: Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📞 +92 300 1234567</p>
+      <p>📧 info@carcare.com</p>
+      <p>📍 Lahore, Pakistan</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom">
+    <p>© 2025 CarCare Services. All rights reserved.</p>
+  </div>
+</footer>
